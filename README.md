@@ -4,6 +4,8 @@ ReoL is a library made for develop easier Minecraft's plugins.
 
 **WARNING**: this library is written with Paper, so you cannot write code with other Minecraft server forks, like Spigot (otherwise he will give you an error).
 
+The version of the library is Paper 1.19.2.
+
 # Implementing ReoL in your plugin
 
 You need to download the JAR file and import it as a dependency.
