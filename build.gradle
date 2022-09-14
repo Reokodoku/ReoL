@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+}
+
+group 'me.reokodoku'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'sonatype'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+    maven { url = uri("https://papermc.io/repo/repository/maven-public/") }
+}
+
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
+}
